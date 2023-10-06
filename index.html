@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="./style.css">
+    <title>Films</title>
+</head>
+<body>
+
+    <div id="container">
+        <div id="searching">
+            <input class="search-input" type="text">
+            <button class="search-btn"><i class="fa-solid fa-magnifying-glass"></i></button>
+        </div>
+        <div id="film">
+            <div class="container">
+                <div class="img-sec">
+                    <img class="filmImg" src="" alt="">
+                    <div class="imdb-sec"><img src="./download.png" alt=""><span class="imdb"></span></div>
+                </div>
+
+                <div class="about-film">
+                    <h2><span class="title"></span> (<span class="year"></span>)</h2>
+                    <p class="content"></p>
+
+                    <ul>
+                        <li><i class="fa-solid fa-people-group"></i>Aktyorlar: <span class="actors"></span></li>
+                        <li class="director-fluid"><i class="fa-solid fa-user"></i>Rejissor: <span class="director"></span></li>
+                        <li class="awards-fluid"><i class="fa-solid fa-award"></i> Aldığı mükafatlar: <span class="awards"></span></li>
+                        <li><i class="fa-solid fa-clapperboard"></i>Janr: <span class="genre"></span></li>
+                        <li><i class="fa-regular fa-calendar-days"></i>Çıxış ili: <span class="released"></span></li>
+                        <li class="runtime-fluid"><i class="fa-regular fa-hourglass-half"></i> Film müddəti: <span class="runtime"></span></li>
+                        <li><i class="fa-solid fa-globe"></i>Ölkə: <span class="country"></span></li>
+                    </ul>
+
+                    <div class="runtimeAndSeasons">
+                        <h3>Bölüm müddəti: <span class="runtime"></span></h3>
+                        <h3>Sezon Sayı: <span class="totalSeasons"></span></h3>
+                    </div>
+                </div>
+            </div>
+           
+        </div>
+    </div>
+    
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="./script.js"></script>
+</body>
+</html>
